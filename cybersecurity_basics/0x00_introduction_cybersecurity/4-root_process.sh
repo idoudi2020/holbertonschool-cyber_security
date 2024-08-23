@@ -1,2 +1,2 @@
 #!/bin/bash
-ps aux | grep root | awk '$6 > 0' | awk '$5 > 0'
+ps aux | grep -v "^$1" | awk '$5 > 0' | awk '$6 > 0'
