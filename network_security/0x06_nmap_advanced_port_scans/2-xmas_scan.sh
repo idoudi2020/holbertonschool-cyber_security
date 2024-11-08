@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo nmap -sF -f -Pn -p80-85 -T2 $1
+sudo nmap -sX -p440-450 --open --packet-trace --reason $1
