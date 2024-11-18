@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """Documentation :
 Module docs.
 """
