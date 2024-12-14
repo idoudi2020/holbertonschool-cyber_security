@@ -1,4 +1,5 @@
 require 'json'
+
 def merge_json_files(file1_path, file2_path)
   begin
     # Read JSON files
