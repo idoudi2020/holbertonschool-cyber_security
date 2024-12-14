@@ -19,4 +19,3 @@ def get_request(url)
     puts JSON.pretty_generate(json_body)
   end
 end
-
